@@ -215,6 +215,7 @@ AI-DLC 워크플로우를 시작해봅시다."
 
 ---
 
+<<<<<<< HEAD
 ## Unit 1 인증+메뉴 - Functional Design 시작
 **Timestamp**: 2026-04-06T01:00:00Z
 **User Input**: "unit 1 개발 시작"
@@ -304,5 +305,13 @@ AI-DLC 워크플로우를 시작해봅시다."
 **User Input**: "진행"
 **AI Response**: Code Generation 14 Steps 모두 완료. 16개 신규 파일 생성 + 2개 파일 수정. Backend: adminRepository, menuRepository, authService, menuService, authController, menuController, authRoutes, menuRoutes + app.js 수정. Frontend: authApi, menuApi, AuthContext, SetupPage, MenuPage, LoginPage, MenuManagementPage + App.jsx 수정. 13개 API 엔드포인트, 6개 스토리 구현 완료.
 **Context**: CONSTRUCTION - Unit 1 Code Generation 완료.
+
+---
+
+## Unit 2 주문+모니터링 - Construction 전체 완료
+**Timestamp**: 2026-04-06T02:00:00Z
+**User Input**: "unit 2 브랜치를 만들고 unit 0이 완성된 기준의 상태를 가져와서 unit 2 개발"
+**AI Response**: unit2 브랜치를 main(Unit 0 완료)에서 생성. FD → NFR Req → NFR Design → Infra Design → Code Generation 전체 완료. 14개 신규 파일 + 2개 수정. Backend: orderRepository, orderService, sseService, orderController, sseController, orderRoutes, sseRoutes + app.js 수정. Frontend: orderApi, sseClient, CartContext, CartPage, OrderSuccessPage, OrderHistoryPage, DashboardPage + App.jsx 수정. 6개 API 엔드포인트, 5개 스토리(US-C03,C04,C05,A02,A03) 구현.
+**Context**: CONSTRUCTION - Unit 2 주문+모니터링 전체 Construction 완료.
 
 ---

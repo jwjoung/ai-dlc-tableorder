@@ -1,0 +1,16 @@
+{
+  "name": "table-order",
+  "version": "1.0.0",
+  "description": "테이블오더 서비스 - 디지털 주문 시스템",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "seed": "cd server && node src/db/seed.js",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

@@ -214,3 +214,95 @@ AI-DLC 워크플로우를 시작해봅시다."
 **Context**: CONSTRUCTION - Unit 0 Foundation Code Generation 완료.
 
 ---
+
+## Unit 1 인증+메뉴 - Functional Design 시작
+**Timestamp**: 2026-04-06T01:00:00Z
+**User Input**: "unit 1 개발 시작"
+**AI Response**: Unit 1 Construction 시작. Functional Design 계획 및 질문 파일 생성. unit-1-auth-menu-functional-design-plan.md (16개 체크박스), unit-1-auth-menu-functional-design-questions.md (10개 질문).
+**Context**: CONSTRUCTION - Unit 1 인증+메뉴 Functional Design Step 2-4. 사용자 답변 대기 중.
+
+---
+
+## Unit 1 인증+메뉴 - FD Questions AI 추천 답변
+**Timestamp**: 2026-04-06T01:01:00Z
+**User Input**: "알아서 권장하는 사항 작성해"
+**AI Response**: 10개 질문 모두 AI 추천 답변 작성. Q1:B(24시간), Q2:A(자동세션생성), Q3:A(소프트삭제), Q4:A(삭제차단), Q5:A(화살표), Q6:A(모달), Q7:C(두곳모두), Q8:C(사이드바), Q9:A(카테고리내중복불가), Q10:A(즉시SetupPage).
+**Context**: CONSTRUCTION - Unit 1 FD 질문 AI 추천 답변.
+
+---
+
+## Unit 1 인증+메뉴 - FD Questions 승인 및 산출물 생성
+**Timestamp**: 2026-04-06T01:02:00Z
+**User Input**: "진행"
+**AI Response**: Functional Design 산출물 4개 생성 완료. domain-entities.md (6개 테이블 접근 패턴), business-logic-model.md (13개 비즈니스 플로우), business-rules.md (인증 6개, 메뉴 6개, 카테고리 2개, API 4개 규칙), frontend-components.md (AuthContext, SetupPage, LoginPage, MenuPage, MenuManagementPage, authApi, menuApi).
+**Context**: CONSTRUCTION - Unit 1 인증+메뉴 Functional Design 완료.
+
+---
+
+## Unit 1 인증+메뉴 - Functional Design 승인
+**Timestamp**: 2026-04-06T01:03:00Z
+**User Input**: "승인"
+**AI Response**: FD 승인. NFR Requirements 진행.
+**Context**: CONSTRUCTION - Unit 1 FD 승인.
+
+---
+
+## Unit 1 인증+메뉴 - NFR Requirements 완료
+**Timestamp**: 2026-04-06T01:04:00Z
+**AI Response**: NFR Requirements 산출물 2개 생성. nfr-requirements.md (성능 2개, 보안 4개, 신뢰성 2개, 사용성 3개, 유지보수 2개 = 13개 NFR), tech-stack-decisions.md (Unit 0 상속 + Unit 1 특화 결정 12개). 추가 패키지 불필요.
+**Context**: CONSTRUCTION - Unit 1 NFR Requirements 완료.
+
+---
+
+## Unit 1 인증+메뉴 - NFR Requirements 승인
+**Timestamp**: 2026-04-06T01:05:00Z
+**User Input**: "승인"
+**AI Response**: NFR Requirements 승인. NFR Design 진행.
+**Context**: CONSTRUCTION - Unit 1 NFR Requirements 승인.
+
+---
+
+## Unit 1 인증+메뉴 - NFR Design 완료
+**Timestamp**: 2026-04-06T01:06:00Z
+**AI Response**: NFR Design 산출물 2개 생성. nfr-design-patterns.md (5개 패턴: Dual Auth, Soft Delete, Swap Order, Auto-Login, Controller-Service Error), logical-components.md (11개 컴포넌트: authService, menuService, adminRepository, menuRepository, authController, menuController, authRoutes, menuRoutes, AuthContext, Pages 4개, API Modules 2개).
+**Context**: CONSTRUCTION - Unit 1 NFR Design 완료.
+
+---
+
+## Unit 1 인증+메뉴 - NFR Design 승인
+**Timestamp**: 2026-04-06T01:07:00Z
+**User Input**: "승인"
+**AI Response**: NFR Design 승인. Infrastructure Design 진행.
+**Context**: CONSTRUCTION - Unit 1 NFR Design 승인.
+
+---
+
+## Unit 1 인증+메뉴 - Infrastructure Design 완료
+**Timestamp**: 2026-04-06T01:08:00Z
+**AI Response**: Infrastructure Design 산출물 1개 생성. infrastructure-design.md (Backend 8개 신규+1개 수정, Frontend 7개 신규+1개 수정 = 15개 신규 + 2개 수정). 추가 인프라 불필요.
+**Context**: CONSTRUCTION - Unit 1 Infrastructure Design 완료.
+
+---
+
+## Unit 1 인증+메뉴 - Infrastructure Design 승인
+**Timestamp**: 2026-04-06T01:09:00Z
+**User Input**: "승인"
+**AI Response**: Infrastructure Design 승인. Code Generation 진행.
+**Context**: CONSTRUCTION - Unit 1 Infrastructure Design 승인.
+
+---
+
+## Unit 1 인증+메뉴 - Code Generation Plan 생성
+**Timestamp**: 2026-04-06T01:10:00Z
+**AI Response**: Code Generation Plan 생성. 14 Steps, 16개 신규 파일 + 2개 수정 파일. Repository(2) → Service(2) → Controller(2) → Routes(2) → app.js 수정 → Frontend API(2) → AuthContext → Pages(4) → App.jsx 수정 → Documentation.
+**Context**: CONSTRUCTION - Unit 1 Code Generation Part 1 완료. 사용자 승인 대기.
+
+---
+
+## Unit 1 인증+메뉴 - Code Generation Plan 승인 및 코드 생성 완료
+**Timestamp**: 2026-04-06T01:11:00Z
+**User Input**: "진행"
+**AI Response**: Code Generation 14 Steps 모두 완료. 16개 신규 파일 생성 + 2개 파일 수정. Backend: adminRepository, menuRepository, authService, menuService, authController, menuController, authRoutes, menuRoutes + app.js 수정. Frontend: authApi, menuApi, AuthContext, SetupPage, MenuPage, LoginPage, MenuManagementPage + App.jsx 수정. 13개 API 엔드포인트, 6개 스토리 구현 완료.
+**Context**: CONSTRUCTION - Unit 1 Code Generation 완료.
+
+---

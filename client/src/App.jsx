@@ -15,8 +15,8 @@ import LoginPage from './pages/admin/LoginPage';
 import MenuManagementPage from './pages/admin/MenuManagementPage';
 // Admin Pages (Unit 2)
 import DashboardPage from './pages/admin/DashboardPage';
-// Admin Pages (Unit 3) - to be enabled after unit3 merge
-// import TableSettingsPage from './pages/admin/TableSettingsPage';
+// Admin Pages (Unit 3)
+import TableSettingsPage from './pages/admin/TableSettingsPage';
 
 function App() {
   return (
@@ -38,7 +38,7 @@ function App() {
             <Route path="/admin/login" element={<LoginPage />} />
             <Route path="/admin/dashboard" element={<DashboardPage />} />
             <Route path="/admin/menus" element={<MenuManagementPage />} />
-            {/* <Route path="/admin/tables" element={<TableSettingsPage />} /> */}
+            <Route path="/admin/tables" element={<TableSettingsPage />} />
 
             {/* Admin default redirect */}
             <Route path="/admin" element={<Navigate to="/admin/login" replace />} />

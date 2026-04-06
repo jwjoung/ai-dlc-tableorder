@@ -27,13 +27,13 @@ const authRoutes = require('./routes/authRoutes');       // Unit 1
 const menuRoutes = require('./routes/menuRoutes');       // Unit 1
 const orderRoutes = require('./routes/orderRoutes');     // Unit 2
 const sseRoutes = require('./routes/sseRoutes');         // Unit 2
-// const tableRoutes = require('./routes/tableRoutes');     // Unit 3
+const tableRoutes = require('./routes/tableRoutes');     // Unit 3
 
 app.use('/api/auth', authRoutes);     // Unit 1
 app.use('/api', menuRoutes);          // Unit 1 (menus + categories)
 app.use('/api/orders', orderRoutes);  // Unit 2
 app.use('/api/sse', sseRoutes);       // Unit 2
-// app.use('/api/tables', tableRoutes);  // Unit 3
+app.use('/api/tables', tableRoutes);  // Unit 3
 
 // Health check
 app.get('/api/health', (req, res) => {

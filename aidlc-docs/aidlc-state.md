@@ -3,7 +3,7 @@
 ## Project Information
 - **Project Type**: Greenfield
 - **Start Date**: 2026-04-06T00:00:00Z
-- **Current Stage**: CONSTRUCTION - Unit 1,2 Merged (Unit 3 pending merge)
+- **Current Stage**: CONSTRUCTION - All Units Merged (Build & Test pending)
 
 ## Workspace State
 - **Existing Code**: No
@@ -31,11 +31,11 @@
 - [x] Units Generation - COMPLETED
 
 ### CONSTRUCTION PHASE (per-unit: Unit 0 → Unit 1, 2, 3 병렬 → Build & Test)
-- [ ] Functional Design - EXECUTE
-- [ ] NFR Requirements - EXECUTE (추가됨)
-- [ ] NFR Design - EXECUTE (추가됨)
-- [ ] Infrastructure Design - EXECUTE (추가됨)
-- [ ] Code Generation - EXECUTE
+- [x] Functional Design - COMPLETE
+- [x] NFR Requirements - COMPLETE
+- [x] NFR Design - COMPLETE
+- [x] Infrastructure Design - COMPLETE
+- [x] Code Generation - COMPLETE
 - [ ] Build and Test - EXECUTE
 
 ### Per-Unit Progress
@@ -44,7 +44,7 @@
 | Unit 0: Foundation | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Unit 1: 인증+메뉴 | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Unit 2: 주문+모니터링 | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Unit 3: 테이블관리 | | | | | |
+| Unit 3: 테이블관리 | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 ### OPERATIONS PHASE
 - [ ] Operations (Placeholder)
